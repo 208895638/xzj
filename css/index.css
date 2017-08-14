@@ -1,0 +1,203 @@
+@charset "UTF-8";
+.main {
+  width: 100%; }
+  .main .mainCon {
+    width: 1200px;
+    height: 310px;
+    margin: 0 auto; }
+    .main .mainCon .mainL {
+      width: 589px;
+      height: 311px;
+      position: relative; }
+      .main .mainCon .mainL .mainLCon {
+        width: 589px;
+        height: 311px; }
+        .main .mainCon .mainL .mainLCon a img {
+          width: 100%;
+          height: 100%; }
+    .main .mainCon .mainR {
+      width: 564px;
+      height: 299px;
+      background: #fff;
+      padding: 6px 13px; }
+      .main .mainCon .mainR .mainRTop {
+        width: 100%;
+        height: 42px;
+        border-bottom: 2px solid #dde0e4; }
+        .main .mainCon .mainR .mainRTop li a {
+          display: block;
+          padding: 12px 23px;
+          font-size: 16px;
+          color: #71716a;
+          background: url(../images/index_line.png) no-repeat 100% center;
+          border-bottom: 2px solid #dde0e4; }
+        .main .mainCon .mainR .mainRTop li a:hover {
+          color: #6C67AE;
+          border-bottom: 2px solid #6C67AE; }
+        .main .mainCon .mainR .mainRTop li .original {
+          background: none; }
+        .main .mainCon .mainR .mainRTop li .active {
+          color: #6C67AE;
+          border-bottom: 2px solid #6C67AE; }
+        .main .mainCon .mainR .mainRTop h2 a {
+          display: block;
+          position: relative;
+          width: 42px;
+          height: 42px; }
+          .main .mainCon .mainR .mainRTop h2 a img {
+            height: 20px;
+            width: auto;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto; }
+      .main .mainCon .mainR .mainRBot .common {
+        padding-top: 7px; }
+        .main .mainCon .mainR .mainRBot .common li {
+          padding-left: 14px;
+          background: url(../images/index_circle.png) no-repeat left center; }
+          .main .mainCon .mainR .mainRBot .common li a {
+            display: block; }
+            .main .mainCon .mainR .mainRBot .common li a span {
+              font: 13px/35px "微软雅黑";
+              color: #333333; }
+            .main .mainCon .mainR .mainRBot .common li a em {
+              font: 13px/35px "微软雅黑";
+              color: #aaaaaa; }
+            .main .mainCon .mainR .mainRBot .common li a span:hover {
+              color: #6C67AE; }
+  .main .lead {
+    width: 100%;
+    background: #ecebf0;
+    padding-top: 30px;
+    padding-bottom: 78px; }
+    .main .lead ul {
+      width: 1200px;
+      margin: 0 auto; }
+      .main .lead ul li {
+        width: 285px;
+        height: 154px;
+        background: url(../images/xsyd.png) no-repeat center;
+        background-size: cover;
+        margin-right: 20px; }
+        .main .lead ul li a {
+          width: 106px;
+          height: 154px;
+          display: block;
+          background: rgba(84, 99, 155, 0.5);
+          display: table; }
+          .main .lead ul li a dl {
+            display: table-cell;
+            vertical-align: middle;
+            width: 106px; }
+            .main .lead ul li a dl dt {
+              width: 100%;
+              margin-bottom: 10px; }
+              .main .lead ul li a dl dt img {
+                height: 42px;
+                margin: 0 auto; }
+            .main .lead ul li a dl dd {
+              width: 100%;
+              text-align: center;
+              font-size: 15px;
+              color: #ffffff; }
+    .main .lead ul > li + li {
+      background: url(../images/index_yxgs.png) no-repeat center;
+      background-size: cover; }
+    .main .lead ul > li + li + li {
+      background: url(../images/index_yxgl.png) no-repeat center;
+      background-size: cover; }
+    .main .lead ul > li + li + li + li {
+      background: url(../images/index_yxjt.png) no-repeat center;
+      background-size: cover;
+      margin-right: 0; }
+  .main .information {
+    width: 100%;
+    padding-top: 25px;
+    height: 525px;
+    background: rgba(67, 89, 172, 0.6);
+    margin-bottom: 300px; }
+    .main .information .info {
+      width: 1200px;
+      height: 500px;
+      margin: 0 auto;
+      position: relative; }
+      .main .information .info .infoPage {
+        position: absolute;
+        left: 0;
+        top: 78px; }
+        .main .information .info .infoPage li {
+          width: 65px;
+          height: 75px;
+          background: url(../images/index_six.png) no-repeat center;
+          background-size: cover;
+          position: relative;
+          font-size: 23px;
+          color: #fff;
+          text-align: center;
+          line-height: 75px;
+          cursor: pointer; }
+        .main .information .info .infoPage li:hover {
+          background: url(../images/index_six_on.png) no-repeat center;
+          background-size: cover; }
+        .main .information .info .infoPage .on {
+          background: url(../images/index_six_on.png) no-repeat center;
+          background-size: cover; }
+        .main .information .info .infoPage .qy {
+          margin-left: 32px;
+          margin-bottom: -9px; }
+        .main .information .info .infoPage .gw {
+          margin-left: 32px;
+          margin-bottom: -9px; }
+        .main .information .info .infoPage .fx {
+          margin-left: 32px;
+          margin-bottom: -9px; }
+      .main .information .info .content {
+        position: absolute;
+        top: 56px;
+        left: 154px; }
+        .main .information .info .content .conPer {
+          width: 1046px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 403px; }
+          .main .information .info .content .conPer .attr {
+            width: 226px;
+            margin-right: 40px; }
+            .main .information .info .content .conPer .attr img {
+              width: 226px;
+              height: auto; }
+          .main .information .info .content .conPer dl {
+            position: absolute;
+            top: 0;
+            left: 246px;
+            z-index: 97;
+            padding-top: 88px; }
+            .main .information .info .content .conPer dl dt {
+              font: 47px/95px  STKaiti,Tahoma,Helvetica,Arial,'宋体',sans-serif;
+              color: #b59852; }
+            .main .information .info .content .conPer dl dd {
+              font: 16px/32px "微软雅黑";
+              color: #fff;
+              display: table; }
+              .main .information .info .content .conPer dl dd span {
+                margin-left: 10px;
+                display: table-cell;
+                vertical-align: middle; }
+                .main .information .info .content .conPer dl dd span img {
+                  display: inline-block;
+                  margin: 0 4px; }
+          .main .information .info .content .conPer .role {
+            position: absolute;
+            right: -0px;
+            bottom: -66px; }
+            .main .information .info .content .conPer .role img {
+              width: 784px;
+              height: 604px; }
+      .main .information .info .infoBg {
+        position: absolute;
+        top: 0;
+        right: 347px; }

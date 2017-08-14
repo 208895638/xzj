@@ -1,0 +1,123 @@
+@charset "UTF-8";
+body, html {
+  min-width: 1200px; }
+
+.topBar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 67px;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 99; }
+  .topBar .content {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative; }
+    .topBar .content h2 {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 118px;
+      width: 121px;
+      border-radius: 12px; }
+      .topBar .content h2 img {
+        width: 100%;
+        height: 100%; }
+    .topBar .content ul {
+      margin-left: 121px; }
+      .topBar .content ul li a {
+        display: block;
+        padding: 0 32px;
+        font: 17px/64px "微软雅黑";
+        color: #333333; }
+      .topBar .content ul li .topActive {
+        color: #6C67AE;
+        border-bottom: 2px solid #6C67AE; }
+      .topBar .content ul li a:hover {
+        color: #6C67AE;
+        border-bottom: 2px solid #6C67AE; }
+
+.banner {
+  margin-top: 66px;
+  width: 100%;
+  height: 932px;
+  background: #ecebf0 url(../images/index_banner.png) no-repeat center top; }
+  .banner .content {
+    width: 1200px;
+    height: 622px;
+    margin: 0 auto;
+    position: relative; }
+    .banner .content .conL {
+      position: absolute;
+      width: 454px;
+      height: 150px;
+      background: rgba(255, 255, 255, 0.4);
+      left: 1px;
+      top: 427px;
+      padding: 13px; }
+      .banner .content .conL ul {
+        position: relative;
+        width: 454px;
+        height: 150px; }
+        .banner .content .conL ul .code {
+          width: 152px;
+          height: 152px;
+          margin-right: 16px; }
+          .banner .content .conL ul .code img {
+            width: 152px;
+            height: 152px; }
+        .banner .content .conL ul .download {
+          width: 167px;
+          margin-right: 20px; }
+          .banner .content .conL ul .download dl {
+            width: 167px; }
+            .banner .content .conL ul .download dl dt, .banner .content .conL ul .download dl dd {
+              width: 167px; }
+            .banner .content .conL ul .download dl dt {
+              font: 22px/38px "微软雅黑"; }
+            .banner .content .conL ul .download dl dd {
+              height: 50px;
+              text-indent: 3em;
+              margin-top: 6px; }
+              .banner .content .conL ul .download dl dd a {
+                background: #000 url(../images/index_banner_apple.png) no-repeat 11px center;
+                display: block;
+                border-radius: 4px;
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                color: #fff;
+                font-size: 17px; }
+              .banner .content .conL ul .download dl dd .android {
+                background: #0cb1aa url(../images/index-banner_android.png) no-repeat 11px center; }
+        .banner .content .conL ul .gift {
+          position: absolute;
+          right: 0;
+          bottom: 0; }
+          .banner .content .conL ul .gift img {
+            height: 118px; }
+
+.main {
+  margin-top: -310px; }
+
+.pagination {
+  position: absolute;
+  right: 30px;
+  text-align: center;
+  bottom: 5px;
+  height: 20px;
+  z-index: 98; }
+
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #cacaca;
+  box-shadow: 0px 1px 2px #555 inset;
+  margin: 0 3px;
+  cursor: pointer; }
+
+.swiper-active-switch {
+  background: #c1a465; }
